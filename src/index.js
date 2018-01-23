@@ -1,3 +1,5 @@
+import SpriteUtilities from 'pixi-sprite-utilities';
+
 var PIXI = require('pixi.js');
 
 //import PIXI from 'pixi.js'
@@ -19,33 +21,31 @@ app.renderer.backgroundColor = 0xDDDDDD;
 document.body.appendChild(app.view);
 
 PIXI.loader
-    .add("fee.jpg")
+    .add("sprite.json")
     .load(setup);
 
 class startView {
     constructor(app) {
-        this.fee = new PIXI.Sprite(PIXI.loader.resources['fee.jpg'].texture);
-        this.fee.x = 1;
-        this.fee.y = 2;
-        this.fee.vx = 1;
-        this.fee.vy = 2;
-        app.stage.addChild(this.fee);
+//        this.fee = new PIXI.Sprite(PIXI.loader.resources['fee.jpg'].texture);
+//        this.fee.x = 1;
+//        this.fee.y = 2;
+//        this.fee.vx = 1;
+//        this.fee.vy = 2;
+//        app.stage.addChild(this.fee);
 
-//let spriteUtils = new SpriteUtilities(PIXI);
-//
-//
-//        let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
-//        let battler = spriteUtils.sprite(frameTextures);
-//
-//
-//        //let sprite = PIXI.loader.resources["sprite.json"].textures; 
-//        //this.battler = new PIXI.Sprite(sprite['battler0.png']);
-//        this.battler.x = 600;
-//        this.battler.y = 50;
-//
-//        app.stage.addChild(this.battler);
+      // let spriteUtils = new SpriteUtilities(PIXI);
+      // let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
+      // let battler = spriteUtils.sprite(frameTextures);
 
-        this.registerKeys();
+
+       let sprite = PIXI.loader.resources["sprite.json"].textures; 
+       this.battler = new PIXI.Sprite(sprite['battler0.png']);
+       this.battler.x = 600;
+       this.battler.y = 50;
+
+       app.stage.addChild(this.battler);
+
+        //this.registerKeys();
     }
 
     registerKeys() {

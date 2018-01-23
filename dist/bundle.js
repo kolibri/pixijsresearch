@@ -169,7 +169,7 @@ Object.defineProperty(exports, 'Sprite', {
   }
 });
 
-var _CanvasSpriteRenderer = __webpack_require__(119);
+var _CanvasSpriteRenderer = __webpack_require__(120);
 
 Object.defineProperty(exports, 'CanvasSpriteRenderer', {
   enumerable: true,
@@ -187,7 +187,7 @@ Object.defineProperty(exports, 'CanvasTinter', {
   }
 });
 
-var _SpriteRenderer = __webpack_require__(122);
+var _SpriteRenderer = __webpack_require__(123);
 
 Object.defineProperty(exports, 'SpriteRenderer', {
   enumerable: true,
@@ -196,7 +196,7 @@ Object.defineProperty(exports, 'SpriteRenderer', {
   }
 });
 
-var _Text = __webpack_require__(138);
+var _Text = __webpack_require__(139);
 
 Object.defineProperty(exports, 'Text', {
   enumerable: true,
@@ -223,7 +223,7 @@ Object.defineProperty(exports, 'TextMetrics', {
   }
 });
 
-var _Graphics = __webpack_require__(140);
+var _Graphics = __webpack_require__(141);
 
 Object.defineProperty(exports, 'Graphics', {
   enumerable: true,
@@ -241,7 +241,7 @@ Object.defineProperty(exports, 'GraphicsData', {
   }
 });
 
-var _GraphicsRenderer = __webpack_require__(142);
+var _GraphicsRenderer = __webpack_require__(143);
 
 Object.defineProperty(exports, 'GraphicsRenderer', {
   enumerable: true,
@@ -250,7 +250,7 @@ Object.defineProperty(exports, 'GraphicsRenderer', {
   }
 });
 
-var _CanvasGraphicsRenderer = __webpack_require__(149);
+var _CanvasGraphicsRenderer = __webpack_require__(150);
 
 Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   enumerable: true,
@@ -259,7 +259,7 @@ Object.defineProperty(exports, 'CanvasGraphicsRenderer', {
   }
 });
 
-var _Spritesheet = __webpack_require__(150);
+var _Spritesheet = __webpack_require__(151);
 
 Object.defineProperty(exports, 'Spritesheet', {
   enumerable: true,
@@ -840,11 +840,11 @@ var _eventemitter = __webpack_require__(8);
 
 var _eventemitter2 = _interopRequireDefault(_eventemitter);
 
-var _pluginTarget = __webpack_require__(107);
+var _pluginTarget = __webpack_require__(108);
 
 var _pluginTarget2 = _interopRequireDefault(_pluginTarget);
 
-var _mixin = __webpack_require__(108);
+var _mixin = __webpack_require__(109);
 
 var mixins = _interopRequireWildcard(_mixin);
 
@@ -852,11 +852,11 @@ var _ismobilejs = __webpack_require__(26);
 
 var isMobile = _interopRequireWildcard(_ismobilejs);
 
-var _removeArrayItems = __webpack_require__(109);
+var _removeArrayItems = __webpack_require__(110);
 
 var _removeArrayItems2 = _interopRequireDefault(_removeArrayItems);
 
-var _mapPremultipliedBlendModes = __webpack_require__(110);
+var _mapPremultipliedBlendModes = __webpack_require__(111);
 
 var _mapPremultipliedBlendModes2 = _interopRequireDefault(_mapPremultipliedBlendModes);
 
@@ -1293,11 +1293,11 @@ function premultiplyTintToRgba(tint, alpha, out, premultiply) {
 
 exports.__esModule = true;
 
-var _maxRecommendedTextures = __webpack_require__(105);
+var _maxRecommendedTextures = __webpack_require__(106);
 
 var _maxRecommendedTextures2 = _interopRequireDefault(_maxRecommendedTextures);
 
-var _canUploadSameBuffer = __webpack_require__(106);
+var _canUploadSameBuffer = __webpack_require__(107);
 
 var _canUploadSameBuffer2 = _interopRequireDefault(_canUploadSameBuffer);
 
@@ -1579,7 +1579,7 @@ Object.defineProperty(exports, 'GroupD8', {
   }
 });
 
-var _Circle = __webpack_require__(95);
+var _Circle = __webpack_require__(96);
 
 Object.defineProperty(exports, 'Circle', {
   enumerable: true,
@@ -1588,7 +1588,7 @@ Object.defineProperty(exports, 'Circle', {
   }
 });
 
-var _Ellipse = __webpack_require__(96);
+var _Ellipse = __webpack_require__(97);
 
 Object.defineProperty(exports, 'Ellipse', {
   enumerable: true,
@@ -1597,7 +1597,7 @@ Object.defineProperty(exports, 'Ellipse', {
   }
 });
 
-var _Polygon = __webpack_require__(97);
+var _Polygon = __webpack_require__(98);
 
 Object.defineProperty(exports, 'Polygon', {
   enumerable: true,
@@ -1615,7 +1615,7 @@ Object.defineProperty(exports, 'Rectangle', {
   }
 });
 
-var _RoundedRectangle = __webpack_require__(98);
+var _RoundedRectangle = __webpack_require__(99);
 
 Object.defineProperty(exports, 'RoundedRectangle', {
   enumerable: true,
@@ -1632,14 +1632,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /***/ (function(module, exports, __webpack_require__) {
 
 var gl = {
-    createContext:          __webpack_require__(99),
+    createContext:          __webpack_require__(100),
     setVertexAttribArrays:  __webpack_require__(38),
-    GLBuffer:               __webpack_require__(100),
-    GLFramebuffer:          __webpack_require__(101),
-    GLShader:               __webpack_require__(102),
+    GLBuffer:               __webpack_require__(101),
+    GLFramebuffer:          __webpack_require__(102),
+    GLShader:               __webpack_require__(103),
     GLTexture:              __webpack_require__(39),
-    VertexArrayObject:      __webpack_require__(103),
-    shader:                 __webpack_require__(104)
+    VertexArrayObject:      __webpack_require__(104),
+    shader:                 __webpack_require__(105)
 };
 
 // Export for Node-compatible environments
@@ -1887,7 +1887,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(125)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(126)))
 
 /***/ }),
 /* 7 */
@@ -4391,7 +4391,7 @@ var _SystemRenderer2 = __webpack_require__(54);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _CanvasMaskManager = __webpack_require__(120);
+var _CanvasMaskManager = __webpack_require__(121);
 
 var _CanvasMaskManager2 = _interopRequireDefault(_CanvasMaskManager);
 
@@ -4399,7 +4399,7 @@ var _CanvasRenderTarget = __webpack_require__(56);
 
 var _CanvasRenderTarget2 = _interopRequireDefault(_CanvasRenderTarget);
 
-var _mapCanvasBlendModesToPixi = __webpack_require__(121);
+var _mapCanvasBlendModesToPixi = __webpack_require__(122);
 
 var _mapCanvasBlendModesToPixi2 = _interopRequireDefault(_mapCanvasBlendModesToPixi);
 
@@ -4894,7 +4894,7 @@ exports.default = Shader;
 
 /* eslint-disable no-undef */
 
-var Loader = __webpack_require__(174).default;
+var Loader = __webpack_require__(175).default;
 var Resource = __webpack_require__(34).default;
 var async = __webpack_require__(82);
 var b64 = __webpack_require__(83);
@@ -5379,15 +5379,15 @@ var _SystemRenderer2 = __webpack_require__(54);
 
 var _SystemRenderer3 = _interopRequireDefault(_SystemRenderer2);
 
-var _MaskManager = __webpack_require__(123);
+var _MaskManager = __webpack_require__(124);
 
 var _MaskManager2 = _interopRequireDefault(_MaskManager);
 
-var _StencilManager = __webpack_require__(126);
+var _StencilManager = __webpack_require__(127);
 
 var _StencilManager2 = _interopRequireDefault(_StencilManager);
 
-var _FilterManager = __webpack_require__(127);
+var _FilterManager = __webpack_require__(128);
 
 var _FilterManager2 = _interopRequireDefault(_FilterManager);
 
@@ -5399,7 +5399,7 @@ var _ObjectRenderer = __webpack_require__(16);
 
 var _ObjectRenderer2 = _interopRequireDefault(_ObjectRenderer);
 
-var _TextureManager = __webpack_require__(129);
+var _TextureManager = __webpack_require__(130);
 
 var _TextureManager2 = _interopRequireDefault(_TextureManager);
 
@@ -5407,19 +5407,19 @@ var _BaseTexture = __webpack_require__(9);
 
 var _BaseTexture2 = _interopRequireDefault(_BaseTexture);
 
-var _TextureGarbageCollector = __webpack_require__(130);
+var _TextureGarbageCollector = __webpack_require__(131);
 
 var _TextureGarbageCollector2 = _interopRequireDefault(_TextureGarbageCollector);
 
-var _WebGLState = __webpack_require__(131);
+var _WebGLState = __webpack_require__(132);
 
 var _WebGLState2 = _interopRequireDefault(_WebGLState);
 
-var _mapWebGLDrawModesToPixi = __webpack_require__(133);
+var _mapWebGLDrawModesToPixi = __webpack_require__(134);
 
 var _mapWebGLDrawModesToPixi2 = _interopRequireDefault(_mapWebGLDrawModesToPixi);
 
-var _validateContext = __webpack_require__(134);
+var _validateContext = __webpack_require__(135);
 
 var _validateContext2 = _interopRequireDefault(_validateContext);
 
@@ -9209,7 +9209,7 @@ exports.nextCombination = function(v) {
 exports.__esModule = true;
 exports.Ticker = exports.shared = undefined;
 
-var _Ticker = __webpack_require__(117);
+var _Ticker = __webpack_require__(118);
 
 var _Ticker2 = _interopRequireDefault(_Ticker);
 
@@ -13752,8 +13752,8 @@ function determineCrossOrigin(url) {
 
 
 
-var punycode = __webpack_require__(111);
-var util = __webpack_require__(113);
+var punycode = __webpack_require__(112);
+var util = __webpack_require__(114);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -13828,7 +13828,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(114);
+    querystring = __webpack_require__(115);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -15756,7 +15756,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _extractUniformsFromSrc = __webpack_require__(124);
+var _extractUniformsFromSrc = __webpack_require__(125);
 
 var _extractUniformsFromSrc2 = _interopRequireDefault(_extractUniformsFromSrc);
 
@@ -18589,7 +18589,7 @@ exports.default = {
 exports.__esModule = true;
 exports.BitmapText = exports.TilingSpriteRenderer = exports.TilingSprite = exports.AnimatedSprite = undefined;
 
-var _AnimatedSprite = __webpack_require__(157);
+var _AnimatedSprite = __webpack_require__(158);
 
 Object.defineProperty(exports, 'AnimatedSprite', {
   enumerable: true,
@@ -18598,7 +18598,7 @@ Object.defineProperty(exports, 'AnimatedSprite', {
   }
 });
 
-var _TilingSprite = __webpack_require__(158);
+var _TilingSprite = __webpack_require__(159);
 
 Object.defineProperty(exports, 'TilingSprite', {
   enumerable: true,
@@ -18607,7 +18607,7 @@ Object.defineProperty(exports, 'TilingSprite', {
   }
 });
 
-var _TilingSpriteRenderer = __webpack_require__(159);
+var _TilingSpriteRenderer = __webpack_require__(160);
 
 Object.defineProperty(exports, 'TilingSpriteRenderer', {
   enumerable: true,
@@ -18616,7 +18616,7 @@ Object.defineProperty(exports, 'TilingSpriteRenderer', {
   }
 });
 
-var _BitmapText = __webpack_require__(160);
+var _BitmapText = __webpack_require__(161);
 
 Object.defineProperty(exports, 'BitmapText', {
   enumerable: true,
@@ -18625,11 +18625,11 @@ Object.defineProperty(exports, 'BitmapText', {
   }
 });
 
-__webpack_require__(161);
-
 __webpack_require__(162);
 
 __webpack_require__(163);
+
+__webpack_require__(164);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20622,9 +20622,14 @@ exports.default = CountLimiter;
 
 /***/ }),
 /* 88 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var PIXI = __webpack_require__(89);
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_pixi_sprite_utilities__ = __webpack_require__(89);
+
+
+var PIXI = __webpack_require__(90);
 
 //import PIXI from 'pixi.js'
 
@@ -20645,33 +20650,31 @@ app.renderer.backgroundColor = 0xDDDDDD;
 document.body.appendChild(app.view);
 
 PIXI.loader
-    .add("fee.jpg")
+    .add("sprite.json")
     .load(setup);
 
 class startView {
     constructor(app) {
-        this.fee = new PIXI.Sprite(PIXI.loader.resources['fee.jpg'].texture);
-        this.fee.x = 1;
-        this.fee.y = 2;
-        this.fee.vx = 1;
-        this.fee.vy = 2;
-        app.stage.addChild(this.fee);
+//        this.fee = new PIXI.Sprite(PIXI.loader.resources['fee.jpg'].texture);
+//        this.fee.x = 1;
+//        this.fee.y = 2;
+//        this.fee.vx = 1;
+//        this.fee.vy = 2;
+//        app.stage.addChild(this.fee);
 
-//let spriteUtils = new SpriteUtilities(PIXI);
-//
-//
-//        let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
-//        let battler = spriteUtils.sprite(frameTextures);
-//
-//
-//        //let sprite = PIXI.loader.resources["sprite.json"].textures; 
-//        //this.battler = new PIXI.Sprite(sprite['battler0.png']);
-//        this.battler.x = 600;
-//        this.battler.y = 50;
-//
-//        app.stage.addChild(this.battler);
+      // let spriteUtils = new SpriteUtilities(PIXI);
+      // let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
+      // let battler = spriteUtils.sprite(frameTextures);
 
-        this.registerKeys();
+
+       let sprite = PIXI.loader.resources["sprite.json"].textures; 
+       this.battler = new PIXI.Sprite(sprite['battler0.png']);
+       this.battler.x = 600;
+       this.battler.y = 50;
+
+       app.stage.addChild(this.battler);
+
+        //this.registerKeys();
     }
 
     registerKeys() {
@@ -20745,6 +20748,1254 @@ function keyboard(keyCode) {
 
 /***/ }),
 /* 89 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+class SpriteUtilities {
+  constructor (renderingEngine = PIXI) {
+    if (renderingEngine === undefined) throw new Error('Please supply a reference to PIXI in the SpriteUtilities constructor before using spriteUtilities.js')
+
+    // Find out which rendering engine is being used (the default is Pixi)
+    this.renderer = ''
+
+    // If the `renderingEngine` is Pixi, set up Pixi object aliases
+    if (renderingEngine.particles.ParticleContainer && renderingEngine.Sprite) {
+      this.renderer = 'pixi'
+      this.Container = renderingEngine.Container
+      this.ParticleContainer = renderingEngine.particles.ParticleContainer
+      this.TextureCache = renderingEngine.utils.TextureCache
+      this.Texture = renderingEngine.Texture
+      this.Rectangle = renderingEngine.Rectangle
+      this.AnimatedSprite = renderingEngine.extras.AnimatedSprite
+      this.BitmapText = renderingEngine.extras.BitmapText
+      this.Sprite = renderingEngine.Sprite
+      this.TilingSprite = renderingEngine.extras.TilingSprite
+      this.Graphics = renderingEngine.Graphics
+      this.Text = renderingEngine.Text
+
+      // An array to store all the shaking sprites
+      this.shakingSprites = []
+    }
+  }
+
+  update () {
+    if (this.shakingSprites.length > 0) {
+      for (let i = this.shakingSprites.length - 1; i >= 0; i--) {
+        const shakingSprite = this.shakingSprites[i]
+        if (shakingSprite.updateShake) shakingSprite.updateShake()
+      }
+    }
+  }
+
+  sprite (source, x = 0, y = 0, tiling = false, width, height) {
+    let o,
+      texture
+
+    // Create a sprite if the `source` is a string
+    if (typeof source === 'string') {
+      // Access the texture in the cache if it's there
+      if (this.TextureCache[source]) {
+        texture = this.TextureCache[source]
+      }
+
+      // If it's not is the cache, load it from the source file
+      else {
+        texture = this.Texture.fromImage(source)
+      }
+
+      // If the texture was created, make the o
+      if (texture) {
+        // If `tiling` is `false`, make a regular `Sprite`
+        if (!tiling) {
+          o = new this.Sprite(texture)
+        }
+
+        // If `tiling` is `true` make a `TilingSprite`
+        else {
+          o = new this.TilingSprite(texture, width, height)
+        }
+      }
+      // But if the source still can't be found, alert the user
+      else {
+        throw new Error(`${source} cannot be found`)
+      }
+    }
+
+    // Create a o if the `source` is a texture
+    else if (source instanceof this.Texture) {
+      if (!tiling) {
+        o = new this.Sprite(source)
+      } else {
+        o = new this.TilingSprite(source, width, height)
+      }
+    }
+
+    // Create a `AnimatedSprite` o if the `source` is an array
+    else if (source instanceof Array) {
+      // Is it an array of frame ids or textures?
+      if (typeof source[0] === 'string') {
+        // They're strings, but are they pre-existing texture or
+        // paths to image files?
+        // Check to see if the first element matches a texture in the
+        // cache
+        if (this.TextureCache[source[0]]) {
+          // It does, so it's an array of frame ids
+          o = this.AnimatedSprite.fromFrames(source)
+        } else {
+          // It's not already in the cache, so let's load it
+          o = this.AnimatedSprite.fromImages(source)
+        }
+      }
+
+      // If the `source` isn't an array of strings, check whether
+      // it's an array of textures
+      else if (source[0] instanceof this.Texture) {
+        // Yes, it's an array of textures.
+        // Use them to make a AnimatedSprite o
+        o = new this.AnimatedSprite(source)
+      }
+    }
+
+    // If the sprite was successfully created, intialize it
+    if (o) {
+      // Position the sprite
+      o.x = x
+      o.y = y
+
+      // Set optional width and height
+      if (width) o.width = width
+      if (height) o.height = height
+
+      // If the sprite is a AnimatedSprite, add a state player so that
+      // it's easier to control
+      if (o instanceof this.AnimatedSprite) this.addStatePlayer(o)
+
+      // Assign the sprite
+      return o
+    }
+  }
+
+  addStatePlayer (sprite) {
+    let frameCounter = 0
+    let numberOfFrames = 0
+    let startFrame = 0
+    let endFrame = 0
+    let timerInterval
+
+    // The `show` function (to display static states)
+    function show (frameNumber) {
+      // Reset any possible previous animations
+      reset()
+
+      // Find the new state on the sprite
+      sprite.gotoAndStop(frameNumber)
+    }
+
+    // The `stop` function stops the animation at the current frame
+    function stopAnimation () {
+      reset()
+      sprite.gotoAndStop(sprite.currentFrame)
+    }
+
+    // The `playSequence` function, to play a sequence of frames
+    function playAnimation (sequenceArray) {
+      // Reset any possible previous animations
+      reset()
+
+      // Figure out how many frames there are in the range
+      if (!sequenceArray) {
+        startFrame = 0
+        endFrame = sprite.totalFrames - 1
+      } else {
+        startFrame = sequenceArray[0]
+        endFrame = sequenceArray[1]
+      }
+
+      // Calculate the number of frames
+      numberOfFrames = endFrame - startFrame
+
+      // Compensate for two edge cases:
+      // 1. If the `startFrame` happens to be `0`
+      /*
+      if (startFrame === 0) {
+        numberOfFrames += 1;
+        frameCounter += 1;
+      }
+      */
+
+      // 2. If only a two-frame sequence was provided
+      /*
+      if(numberOfFrames === 1) {
+        numberOfFrames = 2;
+        frameCounter += 1;
+      }
+      */
+
+      // Calculate the frame rate. Set the default fps to 12
+      if (!sprite.fps) sprite.fps = 12
+      const frameRate = 1000 / sprite.fps
+
+      // Set the sprite to the starting frame
+      sprite.gotoAndStop(startFrame)
+
+      // Set the `frameCounter` to the first frame
+      frameCounter = 1
+
+      // If the state isn't already `playing`, start it
+      if (!sprite.animating) {
+        timerInterval = setInterval(advanceFrame.bind(this), frameRate)
+        sprite.animating = true
+      }
+    }
+
+    // `advanceFrame` is called by `setInterval` to display the next frame
+    // in the sequence based on the `frameRate`. When the frame sequence
+    // reaches the end, it will either stop or loop
+    function advanceFrame () {
+      // Advance the frame if `frameCounter` is less than
+      // the state's total frames
+      if (frameCounter < numberOfFrames + 1) {
+        // Advance the frame
+        sprite.gotoAndStop(sprite.currentFrame + 1)
+
+        // Update the frame counter
+        frameCounter += 1
+
+        // If we've reached the last frame and `loop`
+        // is `true`, then start from the first frame again
+      } else if (sprite.loop) {
+        sprite.gotoAndStop(startFrame)
+        frameCounter = 1
+      }
+    }
+
+    function reset () {
+      // Reset `sprite.playing` to `false`, set the `frameCounter` to 0, //and clear the `timerInterval`
+      if (timerInterval !== undefined && sprite.animating === true) {
+        sprite.animating = false
+        frameCounter = 0
+        startFrame = 0
+        endFrame = 0
+        numberOfFrames = 0
+        clearInterval(timerInterval)
+      }
+    }
+
+    // Add the `show`, `play`, `stop`, and `playSequence` methods to the sprite
+    sprite.show = show
+    sprite.stopAnimation = stopAnimation
+    sprite.playAnimation = playAnimation
+  }
+
+  // `tilingSpirte` lets you quickly create Pixi tiling sprites
+  tilingSprite (source, width, height, x, y) {
+    if (width === undefined) {
+      throw new Error('Please define a width as your second argument for the tiling sprite')
+    }
+    if (height === undefined) {
+      throw new Error('Please define a height as your third argument for the tiling sprite')
+    }
+    const o = this.sprite(source, x, y, true, width, height)
+
+    // Add `tileX`, `tileY`, `tileScaleX` and `tileScaleY` properties
+    Object.defineProperties(o, {
+      tileX: {
+        get () {
+          return o.tilePosition.x
+        },
+        set (value) {
+          o.tilePosition.x = value
+        },
+        enumerable: true,
+        configurable: true
+      },
+      tileY: {
+        get () {
+          return o.tilePosition.y
+        },
+        set (value) {
+          o.tilePosition.y = value
+        },
+        enumerable: true,
+        configurable: true
+      },
+      tileScaleX: {
+        get () {
+          return o.tileScale.x
+        },
+        set (value) {
+          o.tileScale.x = value
+        },
+        enumerable: true,
+        configurable: true
+      },
+      tileScaleY: {
+        get () {
+          return o.tileScale.y
+        },
+        set (value) {
+          o.tileScale.y = value
+        },
+        enumerable: true,
+        configurable: true
+      }
+    })
+
+    return o
+  }
+
+  filmstrip (
+    texture,
+    frameWidth,
+    frameHeight,
+    spacing = 0
+  ) {
+    // An array to store the x/y positions of the frames
+    const positions = []
+
+    // Find the width and height of the texture
+    let textureWidth = this.TextureCache[texture].width
+    let textureHeight = this.TextureCache[texture].height
+
+    // Find out how many columns and rows there are
+    let columns = textureWidth / frameWidth
+    let rows = textureHeight / frameHeight
+
+    // Find the total number of frames
+    const numberOfFrames = columns * rows
+
+    for (let i = 0; i < numberOfFrames; i++) {
+      // Find the correct row and column for each frame
+      // and figure out its x and y position
+      let x = (i % columns) * frameWidth
+      let y = Math.floor(i / columns) * frameHeight
+
+      // Compensate for any optional spacing (padding) around the tiles if
+      // there is any. This bit of code accumlates the spacing offsets from the
+      // left side of the tileset and adds them to the current tile's position
+      if (spacing > 0) {
+        x += spacing + (spacing * i % columns)
+        y += spacing + (spacing * Math.floor(i / columns))
+      }
+
+      // Add the x and y value of each frame to the `positions` array
+      positions.push([x, y])
+    }
+
+    // Return the frames
+    return this.frames(texture, positions, frameWidth, frameHeight)
+  }
+
+  // Make a texture from a frame in another texture or image
+  frame (source, x, y, width, height) {
+    let texture,
+      imageFrame
+
+    // If the source is a string, it's either a texture in the
+    // cache or an image file
+    if (typeof source === 'string') {
+      if (this.TextureCache[source]) {
+        texture = new this.Texture(this.TextureCache[source])
+      }
+    }
+
+    // If the `source` is a texture,  use it
+    else if (source instanceof this.Texture) {
+      texture = new this.Texture(source)
+    }
+    if (!texture) {
+      throw new Error(`Please load the ${source} texture into the cache.`)
+    } else {
+      // Make a rectangle the size of the sub-image
+      imageFrame = new this.Rectangle(x, y, width, height)
+      texture.frame = imageFrame
+      return texture
+    }
+  }
+
+  // Make an array of textures from a 2D array of frame x and y coordinates in
+  // texture
+  frames (source, coordinates, frameWidth, frameHeight) {
+    let baseTexture,
+      textures
+
+    // If the source is a string, it's either a texture in the
+    // cache or an image file
+    if (typeof source === 'string') {
+      if (this.TextureCache[source]) {
+        baseTexture = new this.Texture(this.TextureCache[source])
+      }
+    }
+    // If the `source` is a texture,  use it
+    else if (source instanceof this.Texture) {
+      baseTexture = new this.Texture(source)
+    }
+    if (!baseTexture) {
+      throw new Error(`Please load the ${source} texture into the cache.`)
+    } else {
+      const textures = coordinates.map((position) => {
+        let x = position[0]
+        let y = position[1]
+        const imageFrame = new this.Rectangle(x, y, frameWidth, frameHeight)
+        const frameTexture = new this.Texture(baseTexture)
+        frameTexture.frame = imageFrame
+        return frameTexture
+      })
+      return textures
+    }
+  }
+
+  frameSeries (startNumber = 0, endNumber = 1, baseName = '', extension = '') {
+    // Create an array to store the frame names
+    const frames = []
+
+    for (let i = startNumber; i < endNumber + 1; i++) {
+      const frame = this.TextureCache[`${baseName + i + extension}`]
+      frames.push(frame)
+    }
+    return frames
+  }
+
+  /* Text creation */
+
+  // The`text` method is a quick way to create a Pixi Text sprite
+  text (content = 'message', font = '16px sans', fillStyle = 'red', x = 0, y = 0) {
+    // Create a Pixi Sprite object
+    const message = new this.Text(content, { font, fill: fillStyle })
+    message.x = x
+    message.y = y
+
+    // Add a `_text` property with a getter/setter
+    message._content = content
+    Object.defineProperty(message, 'content', {
+      get () {
+        return this._content
+      },
+      set (value) {
+        this._content = value
+        this.text = value
+      },
+      enumerable: true,
+      configurable: true
+    })
+
+    // Return the text object
+    return message
+  }
+
+  // The`bitmapText` method lets you create bitmap text
+  bitmapText (content = 'message', font, align, tint, x = 0, y = 0) {
+    // Create a Pixi Sprite object
+    const message = new this.BitmapText(content, { font, align, tint })
+    message.x = x
+    message.y = y
+
+    // Add a `_text` property with a getter/setter
+    message._content = content
+    Object.defineProperty(message, 'content', {
+      get () {
+        return this._content
+      },
+      set (value) {
+        this._content = value
+        this.text = value
+      },
+      enumerable: true,
+      configurable: true
+    })
+
+    // Return the text object
+    return message
+  }
+
+  /* Shapes and lines */
+
+  // Rectangle
+  rectangle (
+    width = 32,
+    height = 32,
+    fillStyle = 0xFF3300,
+    strokeStyle = 0x0033CC,
+    lineWidth = 0,
+    x = 0,
+    y = 0
+    ) {
+    const o = new this.Graphics()
+    o._sprite = undefined
+    o._width = width
+    o._height = height
+    o._fillStyle = this.color(fillStyle)
+    o._strokeStyle = this.color(strokeStyle)
+    o._lineWidth = lineWidth
+
+    // Draw the rectangle
+    const draw = (width, height, fillStyle, strokeStyle, lineWidth) => {
+      o.clear()
+      o.beginFill(fillStyle)
+      if (lineWidth > 0) {
+        o.lineStyle(lineWidth, strokeStyle, 1)
+      }
+      o.drawRect(0, 0, width, height)
+      o.endFill()
+    }
+
+    // Draw the line and capture the sprite that the `draw` function
+    // returns
+    draw(o._width, o._height, o._fillStyle, o._strokeStyle, o._lineWidth)
+
+    // Generate a texture from the rectangle
+    const texture = o.generateTexture()
+
+    // Use the texture to create a sprite
+    const sprite = new this.Sprite(texture)
+
+    // Position the sprite
+    sprite.x = x
+    sprite.y = y
+
+    // Add getters and setters to the sprite
+    const self = this
+    Object.defineProperties(sprite, {
+      fillStyle: {
+        get () {
+          return o._fillStyle
+        },
+        set (value) {
+          o._fillStyle = self.color(value)
+
+          // Draw the new rectangle
+          draw(o._width, o._height, o._fillStyle, o._strokeStyle, o._lineWidth, o._x, o._y)
+
+          // Generate a new texture and set it as the sprite's texture
+          const texture = o.generateTexture()
+          o._sprite.texture = texture
+        },
+        enumerable: true,
+        configurable: true
+      },
+      strokeStyle: {
+        get () {
+          return o._strokeStyle
+        },
+        set (value) {
+          o._strokeStyle = self.color(value)
+
+          // Draw the new rectangle
+          draw(o._width, o._height, o._fillStyle, o._strokeStyle, o._lineWidth, o._x, o._y)
+
+          // Generate a new texture and set it as the sprite's texture
+          const texture = o.generateTexture()
+          o._sprite.texture = texture
+        },
+        enumerable: true,
+        configurable: true
+      },
+      lineWidth: {
+        get () {
+          return o._lineWidth
+        },
+        set (value) {
+          o._lineWidth = value
+
+          // Draw the new rectangle
+          draw(o._width, o._height, o._fillStyle, o._strokeStyle, o._lineWidth, o._x, o._y)
+
+          // Generate a new texture and set it as the sprite's texture
+          const texture = o.generateTexture()
+          o._sprite.texture = texture
+        },
+        enumerable: true,
+        configurable: true
+      }
+    })
+
+    // Get a local reference to the sprite so that we can
+    // change the rectangle properties later using the getters/setters
+    o._sprite = sprite
+
+    // Return the sprite
+    return sprite
+  }
+
+  // Circle
+  circle (
+    diameter = 32,
+    fillStyle = 0xFF3300,
+    strokeStyle = 0x0033CC,
+    lineWidth = 0,
+    x = 0,
+    y = 0
+    ) {
+    const o = new this.Graphics()
+    o._diameter = diameter
+    o._fillStyle = this.color(fillStyle)
+    o._strokeStyle = this.color(strokeStyle)
+    o._lineWidth = lineWidth
+
+    // Draw the circle
+    const draw = (diameter, fillStyle, strokeStyle, lineWidth) => {
+      o.clear()
+      o.beginFill(fillStyle)
+      if (lineWidth > 0) {
+        o.lineStyle(lineWidth, strokeStyle, 1)
+      }
+      o.drawCircle(0, 0, diameter / 2)
+      o.endFill()
+    }
+
+    // Draw the cirlce
+    draw(o._diameter, o._fillStyle, o._strokeStyle, o._lineWidth)
+
+    // Generate a texture from the rectangle
+    const texture = o.generateTexture()
+
+    // Use the texture to create a sprite
+    const sprite = new this.Sprite(texture)
+
+    // Position the sprite
+    sprite.x = x
+    sprite.y = y
+
+    // Add getters and setters to the sprite
+    const self = this
+    Object.defineProperties(sprite, {
+      fillStyle: {
+        get () {
+          return o._fillStyle
+        },
+        set (value) {
+          o._fillStyle = self.color(value)
+
+          // Draw the cirlce
+          draw(o._diameter, o._fillStyle, o._strokeStyle, o._lineWidth)
+
+          // Generate a new texture and set it as the sprite's texture
+          const texture = o.generateTexture()
+          o._sprite.texture = texture
+        },
+        enumerable: true,
+        configurable: true
+      },
+      strokeStyle: {
+        get () {
+          return o._strokeStyle
+        },
+        set (value) {
+          o._strokeStyle = self.color(value)
+
+          // Draw the cirlce
+          draw(o._diameter, o._fillStyle, o._strokeStyle, o._lineWidth)
+
+          // Generate a new texture and set it as the sprite's texture
+          const texture = o.generateTexture()
+          o._sprite.texture = texture
+        },
+        enumerable: true,
+        configurable: true
+      },
+      diameter: {
+        get () {
+          return o._diameter
+        },
+        set (value) {
+          o._lineWidth = 10
+
+          // Draw the cirlce
+          draw(o._diameter, o._fillStyle, o._strokeStyle, o._lineWidth)
+
+          // Generate a new texture and set it as the sprite's texture
+          const texture = o.generateTexture()
+          o._sprite.texture = texture
+        },
+        enumerable: true,
+        configurable: true
+      },
+      radius: {
+        get () {
+          return o._diameter / 2
+        },
+        set (value) {
+          // Draw the cirlce
+          draw(value * 2, o._fillStyle, o._strokeStyle, o._lineWidth)
+
+          // Generate a new texture and set it as the sprite's texture
+          const texture = o.generateTexture()
+          o._sprite.texture = texture
+        },
+        enumerable: true,
+        configurable: true
+      }
+    })
+    // Get a local reference to the sprite so that we can
+    // change the circle properties later using the getters/setters
+    o._sprite = sprite
+
+    // Return the sprite
+    return sprite
+  }
+
+  // Line
+  line (
+    strokeStyle = 0x000000,
+    lineWidth = 1,
+    ax = 0,
+    ay = 0,
+    bx = 32,
+    by = 32
+    ) {
+    // Create the line object
+    const o = new this.Graphics()
+
+    // Private properties
+    o._strokeStyle = this.color(strokeStyle)
+    o._width = lineWidth
+    o._ax = ax
+    o._ay = ay
+    o._bx = bx
+    o._by = by
+
+    // A helper function that draws the line
+    const draw = (strokeStyle, lineWidth, ax, ay, bx, by) => {
+      o.clear()
+      o.lineStyle(lineWidth, strokeStyle, 1)
+      o.moveTo(ax, ay)
+      o.lineTo(bx, by)
+    }
+
+    // Draw the line
+    draw(o._strokeStyle, o._width, o._ax, o._ay, o._bx, o._by)
+
+    // Define getters and setters that redefine the line's start and
+    // end points and re-draws it if they change
+    const self = this
+    Object.defineProperties(o, {
+      ax: {
+        get () {
+          return o._ax
+        },
+        set (value) {
+          o._ax = value
+          draw(o._strokeStyle, o._width, o._ax, o._ay, o._bx, o._by)
+        },
+        enumerable: true,
+        configurable: true
+      },
+      ay: {
+        get () {
+          return o._ay
+        },
+        set (value) {
+          o._ay = value
+          draw(o._strokeStyle, o._width, o._ax, o._ay, o._bx, o._by)
+        },
+        enumerable: true,
+        configurable: true
+      },
+      bx: {
+        get () {
+          return o._bx
+        },
+        set (value) {
+          o._bx = value
+          draw(o._strokeStyle, o._width, o._ax, o._ay, o._bx, o._by)
+        },
+        enumerable: true,
+        configurable: true
+      },
+      by: {
+        get () {
+          return o._by
+        },
+        set (value) {
+          o._by = value
+          draw(o._strokeStyle, o._width, o._ax, o._ay, o._bx, o._by)
+        },
+        enumerable: true,
+        configurable: true
+      },
+      strokeStyle: {
+        get () {
+          return o._strokeStyle
+        },
+        set (value) {
+          o._strokeStyle = self.color(value)
+
+          // Draw the line
+          draw(o._strokeStyle, o._width, o._ax, o._ay, o._bx, o._by)
+        },
+        enumerable: true,
+        configurable: true
+      },
+      width: {
+        get () {
+          return o._width
+        },
+        set (value) {
+          o._width = value
+
+          // Draw the line
+          draw(o._strokeStyle, o._width, o._ax, o._ay, o._bx, o._by)
+        },
+        enumerable: true,
+        configurable: true
+      }
+    })
+
+    // Return the line
+    return o
+  }
+
+  /* Compound sprites */
+
+  // Use `grid` to create a grid of sprites
+  grid (
+    columns = 0, rows = 0, cellWidth = 32, cellHeight = 32,
+    centerCell = false, xOffset = 0, yOffset = 0,
+    makeSprite = undefined,
+    extra = undefined
+  ) {
+    // Create an empty group called `container`. This `container`
+    // group is what the function returns back to the main program.
+    // All the sprites in the grid cells will be added
+    // as children to this container
+    const container = new this.Container()
+
+    // The `create` method plots the grid
+
+    const createGrid = () => {
+      // Figure out the number of cells in the grid
+      const length = columns * rows
+
+      // Create a sprite for each cell
+      for (let i = 0; i < length; i++) {
+        // Figure out the sprite's x/y placement in the grid
+        let x = (i % columns) * cellWidth
+        let y = Math.floor(i / columns) * cellHeight
+
+        // Use the `makeSprite` function supplied in the constructor
+        // to make a sprite for the grid cell
+        const sprite = makeSprite()
+
+        // Add the sprite to the `container`
+        container.addChild(sprite)
+
+        // Should the sprite be centered in the cell?
+
+        // No, it shouldn't be centered
+        if (!centerCell) {
+          sprite.x = x + xOffset
+          sprite.y = y + yOffset
+        }
+
+        // Yes, it should be centered
+        else {
+          sprite.x =
+            x + (cellWidth / 2) -
+            (sprite.width / 2) + xOffset
+          sprite.y =
+            y + (cellHeight / 2) -
+            (sprite.width / 2) + yOffset
+        }
+
+        // Run any optional extra code. This calls the
+        // `extra` function supplied by the constructor
+        if (extra) extra(sprite)
+      }
+    }
+
+    // Run the `createGrid` method
+    createGrid()
+
+    // Return the `container` group back to the main program
+    return container
+  }
+
+  // Use `shoot` to create bullet sprites
+  shoot (
+    shooter, angle, x, y, container, bulletSpeed, bulletArray, bulletSprite
+  ) {
+    // Make a new sprite using the user-supplied `bulletSprite` function
+    const bullet = bulletSprite()
+
+    // Set the bullet's anchor point to its center
+    bullet.anchor.set(0.5, 0.5)
+
+    // Temporarily add the bullet to the shooter
+    // so that we can position it relative to the
+    // shooter's position
+    shooter.addChild(bullet)
+    bullet.x = x
+    bullet.y = y
+
+    // Find the bullet's global coordinates so that we can use
+    // them to position the bullet on the new parent container
+    let tempGx = bullet.getGlobalPosition().x
+    let tempGy = bullet.getGlobalPosition().y
+
+    // Add the bullet to the new parent container using
+    // the new global coordinates
+    container.addChild(bullet)
+    bullet.x = tempGx
+    bullet.y = tempGy
+
+    // Set the bullet's velocity
+    bullet.vx = Math.cos(angle) * bulletSpeed
+    bullet.vy = Math.sin(angle) * bulletSpeed
+
+    // Push the bullet into the `bulletArray`
+    bulletArray.push(bullet)
+  }
+
+  /*
+  grid
+  ----
+
+  Helps you to automatically create a grid of sprites. `grid` returns a
+  `group` sprite object that contains a sprite for every cell in the
+  grid. You can define the rows and columns in the grid, whether or
+  not the sprites should be centered inside each cell, or what their offset from the
+  top left corner of each cell should be. Supply a function that
+  returns the sprite that you want to make for each cell. You can
+  supply an optional final function that runs any extra code after
+  each sprite has been created. Here's the format for creating a grid:
+
+      gridGroup = grid(
+
+        //Set the grid's properties
+        columns, rows, cellWidth, cellHeight,
+        areSpirtesCentered?, xOffset, yOffset,
+
+        //A function that returns a sprite
+        () => g.circle(16, "blue"),
+
+        //An optional final function that runs some extra code
+        () => console.log("extra!")
+      );
+  */
+
+  grid ( // eslint-disable-line
+    columns = 0,
+    rows = 0,
+    cellWidth = 32,
+    cellHeight = 32,
+    centerCell = false,
+    xOffset = 0,
+    yOffset = 0,
+    makeSprite = undefined,
+    extra = undefined
+  ) {
+    // Create an empty group called `container`. This `container`
+    // group is what the function returns back to the main program.
+    // All the sprites in the grid cells will be added
+    // as children to this container
+    const container = this.group()
+
+    // The `create` method plots the grid
+    const createGrid = () => {
+      // Figure out the number of cells in the grid
+      const length = columns * rows
+
+      // Create a sprite for each cell
+      for (let i = 0; i < length; i++) {
+        // Figure out the sprite's x/y placement in the grid
+        let x = (i % columns) * cellWidth
+        let y = Math.floor(i / columns) * cellHeight
+
+        // Use the `makeSprite` function supplied in the constructor
+        // to make a sprite for the grid cell
+        const sprite = makeSprite()
+
+        // Add the sprite to the `container`
+        container.addChild(sprite)
+
+        // Should the sprite be centered in the cell?
+
+        // No, it shouldn't be centered
+        if (!centerCell) {
+          sprite.x = x + xOffset
+          sprite.y = y + yOffset
+        }
+
+        // Yes, it should be centered
+        else {
+          sprite.x = x + (cellWidth / 2) - sprite.halfWidth + xOffset
+          sprite.y = y + (cellHeight / 2) - sprite.halfHeight + yOffset
+        }
+
+        // Run any optional extra code. This calls the
+        // `extra` function supplied by the constructor
+        if (extra) extra(sprite)
+      }
+    }
+
+    // Run the `createGrid` method
+    createGrid()
+
+    // Return the `container` group back to the main program
+    return container
+  }
+
+  /*
+  shake
+  -----
+
+  Used to create a shaking effect, like a screen shake
+  */
+
+  shake (sprite, magnitude = 16, angular = false) {
+    // Get a reference to this current object so that
+    // it's easy to maintain scope in the nested sub-functions
+    const self = this
+
+    // A counter to count the number of shakes
+    let counter = 1
+
+    // The total number of shakes (there will be 1 shake per frame)
+    const numberOfShakes = 10
+
+    // Capture the sprite's position and angle so you can
+    // restore them after the shaking has finished
+    let startX = sprite.x
+    let startY = sprite.y
+    let startAngle = sprite.rotation
+
+    // Divide the magnitude into 10 units so that you can
+    // reduce the amount of shake by 10 percent each frame
+    const magnitudeUnit = magnitude / numberOfShakes
+
+    // The `randomInt` helper function
+    const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
+
+    // Add the sprite to the `shakingSprites` array if it
+    // isn't already there
+    if (self.shakingSprites.indexOf(sprite) === -1) {
+      self.shakingSprites.push(sprite)
+
+      // Add an `updateShake` method to the sprite.
+      // The `updateShake` method will be called each frame
+      // in the game loop. The shake effect type can be either
+      // up and down (x/y shaking) or angular (rotational shaking).
+      sprite.updateShake = () => {
+        if (angular) {
+          angularShake()
+        } else {
+          upAndDownShake()
+        }
+      }
+    }
+
+    // The `upAndDownShake` function
+    function upAndDownShake () {
+      // Shake the sprite while the `counter` is less than
+      // the `numberOfShakes`
+      if (counter < numberOfShakes) {
+        // Reset the sprite's position at the start of each shake
+        sprite.x = startX
+        sprite.y = startY
+
+        // Reduce the magnitude
+        magnitude -= magnitudeUnit
+
+        // Randomly change the sprite's position
+        sprite.x += randomInt(-magnitude, magnitude)
+        sprite.y += randomInt(-magnitude, magnitude)
+
+        // Add 1 to the counter
+        counter += 1
+      }
+
+      // When the shaking is finished, restore the sprite to its original
+      // position and remove it from the `shakingSprites` array
+      if (counter >= numberOfShakes) {
+        sprite.x = startX
+        sprite.y = startY
+        self.shakingSprites.splice(self.shakingSprites.indexOf(sprite), 1)
+      }
+    }
+
+    // The `angularShake` function
+    // First set the initial tilt angle to the right (+1)
+    let tiltAngle = 1
+
+    function angularShake () {
+      if (counter < numberOfShakes) {
+        // Reset the sprite's rotation
+        sprite.rotation = startAngle
+
+        // Reduce the magnitude
+        magnitude -= magnitudeUnit
+
+        // Rotate the sprite left or right, depending on the direction,
+        // by an amount in radians that matches the magnitude
+        sprite.rotation = magnitude * tiltAngle
+        counter += 1
+
+        // Reverse the tilt angle so that the sprite is tilted
+        // in the opposite direction for the next shake
+        tiltAngle *= -1
+      }
+
+      // When the shaking is finished, reset the sprite's angle and
+      // remove it from the `shakingSprites` array
+      if (counter >= numberOfShakes) {
+        sprite.rotation = startAngle
+        self.shakingSprites.splice(self.shakingSprites.indexOf(sprite), 1)
+      }
+    }
+  }
+
+  /*
+  _getCenter
+  ----------
+
+  A utility that finds the center point of the sprite. If it's anchor point is the
+  sprite's top left corner, then the center is calculated from that point.
+  If the anchor point has been shifted, then the anchor x/y point is used as the sprite's center
+  */
+
+  _getCenter (o, dimension, axis) {
+    if (o.anchor !== undefined) {
+      if (o.anchor[axis] !== 0) {
+        return 0
+      }
+      return dimension / 2
+    }
+    return dimension
+  }
+
+  /* Groups */
+
+  // Group sprites into a container
+  group (...sprites) {
+    const container = new this.Container()
+    sprites.forEach((sprite) => {
+      container.addChild(sprite)
+    })
+    return container
+  }
+
+  // Use the `batch` method to create a ParticleContainer
+  batch (size = 15000, options = { rotation: true, alpha: true, scale: true, uvs: true }) {
+    const o = new this.ParticleContainer(size, options)
+    return o
+  }
+
+  // `remove` is a global convenience method that will
+  // remove any sprite, or an argument list of sprites, from its parent.
+  remove (...sprites) {
+    // Remove sprites that's aren't in an array
+    if (!(sprites[0] instanceof Array)) {
+      if (sprites.length > 1) {
+        sprites.forEach((sprite) => {
+          sprite.parent.removeChild(sprite)
+        })
+      } else {
+        sprites[0].parent.removeChild(sprites[0])
+      }
+    }
+
+    // Remove sprites in an array of sprites
+    else {
+      const spritesArray = sprites[0]
+      if (spritesArray.length > 0) {
+        for (let i = spritesArray.length - 1; i >= 0; i--) {
+          const sprite = spritesArray[i]
+          sprite.parent.removeChild(sprite)
+          spritesArray.splice(spritesArray.indexOf(sprite), 1)
+        }
+      }
+    }
+  }
+
+  /* Color conversion */
+  // From: http://stackoverflow.com/questions/1573053/javascript-function-to-convert-color-names-to-hex-codes
+  // Utilities to convert HTML color string names to hexadecimal codes
+
+  colorToRGBA (color) {
+    // Returns the color as an array of [r, g, b, a] -- all range from 0 - 255
+    // color must be a valid canvas fillStyle. This will cover most anything
+    // you'd want to use.
+    // Examples:
+    // colorToRGBA('red')  # [255, 0, 0, 255]
+    // colorToRGBA('#f00') # [255, 0, 0, 255]
+    let cvs,
+      ctx
+    cvs = document.createElement('canvas')
+    cvs.height = 1
+    cvs.width = 1
+    ctx = cvs.getContext('2d')
+    ctx.fillStyle = color
+    ctx.fillRect(0, 0, 1, 1)
+    const data = ctx.getImageData(0, 0, 1, 1).data
+    return data
+  }
+
+  byteToHex (num) {
+    // Turns a number (0-255) into a 2-character hex number (00-ff)
+    return (`0${num.toString(16)}`).slice(-2)
+  }
+
+  colorToHex (color) {
+    // Convert any CSS color to a hex representation
+    // Examples:
+    // colorToHex('red')            # '#ff0000'
+    // colorToHex('rgb(255, 0, 0)') # '#ff0000'
+    let rgba,
+      hex
+    rgba = this.colorToRGBA(color)
+    hex = [0, 1, 2].map(
+      idx => this.byteToHex(rgba[idx])
+      ).join('')
+    return `0x${hex}`
+  }
+
+  // A function to find out if the user entered a number (a hex color
+  // code) or a string (an HTML color string)
+  color (value) {
+    // Check if it's a number
+    if (!isNaN(value)) {
+      // Yes, it is a number, so just return it
+      return value
+    }
+
+    // No it's not a number, so it must be a string
+
+    return parseInt(this.colorToHex(value))
+      /*
+
+      //Find out what kind of color string it is.
+      //Let's first grab the first character of the string
+      let firstCharacter = value.charAt(0);
+
+      //If the first character is a "#" or a number, then
+      //we know it must be a RGBA color
+      if (firstCharacter === "#") {
+        console.log("first character: " + value.charAt(0))
+      }
+      */
+
+    /*
+    //Find out if the first character in the string is a number
+    if (!isNaN(parseInt(string.charAt(0)))) {
+
+      //It's not, so convert it to a hex code
+      return colorToHex(string);
+
+    //The use input a number, so it must be a hex code. Just return it
+    } else {
+
+      return string;
+    }
+
+  */
+  }
+}
+/* unused harmony export default */
+
+
+
+/***/ }),
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20753,7 +22004,7 @@ function keyboard(keyCode) {
 exports.__esModule = true;
 exports.loader = exports.prepare = exports.particles = exports.mesh = exports.loaders = exports.interaction = exports.filters = exports.extras = exports.extract = exports.accessibility = undefined;
 
-var _polyfill = __webpack_require__(90);
+var _polyfill = __webpack_require__(91);
 
 Object.keys(_polyfill).forEach(function (key) {
     if (key === "default" || key === "__esModule") return;
@@ -20777,15 +22028,15 @@ Object.keys(_core).forEach(function (key) {
     });
 });
 
-var _deprecation = __webpack_require__(151);
+var _deprecation = __webpack_require__(152);
 
 var _deprecation2 = _interopRequireDefault(_deprecation);
 
-var _accessibility = __webpack_require__(152);
+var _accessibility = __webpack_require__(153);
 
 var accessibility = _interopRequireWildcard(_accessibility);
 
-var _extract = __webpack_require__(154);
+var _extract = __webpack_require__(155);
 
 var extract = _interopRequireWildcard(_extract);
 
@@ -20793,27 +22044,27 @@ var _extras = __webpack_require__(69);
 
 var extras = _interopRequireWildcard(_extras);
 
-var _filters = __webpack_require__(164);
+var _filters = __webpack_require__(165);
 
 var filters = _interopRequireWildcard(_filters);
 
-var _interaction = __webpack_require__(171);
+var _interaction = __webpack_require__(172);
 
 var interaction = _interopRequireWildcard(_interaction);
 
-var _loaders = __webpack_require__(173);
+var _loaders = __webpack_require__(174);
 
 var loaders = _interopRequireWildcard(_loaders);
 
-var _mesh = __webpack_require__(177);
+var _mesh = __webpack_require__(178);
 
 var mesh = _interopRequireWildcard(_mesh);
 
-var _particles = __webpack_require__(182);
+var _particles = __webpack_require__(183);
 
 var particles = _interopRequireWildcard(_particles);
 
-var _prepare = __webpack_require__(187);
+var _prepare = __webpack_require__(188);
 
 var prepare = _interopRequireWildcard(_prepare);
 
@@ -20862,17 +22113,17 @@ global.PIXI = exports; // eslint-disable-line
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(20)))
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(91);
-
-__webpack_require__(93);
+__webpack_require__(92);
 
 __webpack_require__(94);
+
+__webpack_require__(95);
 
 if (!window.ArrayBuffer) {
     window.ArrayBuffer = Array;
@@ -20892,13 +22143,13 @@ if (!window.Uint16Array) {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _objectAssign = __webpack_require__(92);
+var _objectAssign = __webpack_require__(93);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
@@ -20912,7 +22163,7 @@ if (!Object.assign) {
 //# sourceMappingURL=Object.assign.js.map
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21009,7 +22260,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21090,7 +22341,7 @@ if (!global.cancelAnimationFrame) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(20)))
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21113,7 +22364,7 @@ if (!Math.sign) {
 //# sourceMappingURL=Math.sign.js.map
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21232,7 +22483,7 @@ exports.default = Circle;
 //# sourceMappingURL=Circle.js.map
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21359,7 +22610,7 @@ exports.default = Ellipse;
 //# sourceMappingURL=Ellipse.js.map
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21495,7 +22746,7 @@ exports.default = Polygon;
 //# sourceMappingURL=Polygon.js.map
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21633,7 +22884,7 @@ exports.default = RoundedRectangle;
 //# sourceMappingURL=RoundedRectangle.js.map
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 
@@ -21665,7 +22916,7 @@ module.exports = createContext;
 
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 var EMPTY_ARRAY_BUFFER = new ArrayBuffer(0);
@@ -21790,7 +23041,7 @@ module.exports = Buffer;
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -22022,7 +23273,7 @@ module.exports = Framebuffer;
 
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -22122,7 +23373,7 @@ module.exports = Shader;
 
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -22394,7 +23645,7 @@ VertexArrayObject.prototype.getSize = function()
 
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
@@ -22409,7 +23660,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22436,7 +23687,7 @@ function maxRecommendedTextures(max) {
 //# sourceMappingURL=maxRecommendedTextures.js.map
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22455,7 +23706,7 @@ function canUploadSameBuffer() {
 //# sourceMappingURL=canUploadSameBuffer.js.map
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22526,7 +23777,7 @@ exports.default = {
 //# sourceMappingURL=pluginTarget.js.map
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22593,7 +23844,7 @@ function performMixins() {
 //# sourceMappingURL=mixin.js.map
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22628,7 +23879,7 @@ module.exports = function removeItems(arr, startIdx, removeCount)
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22676,7 +23927,7 @@ function mapPremultipliedBlendModes() {
 //# sourceMappingURL=mapPremultipliedBlendModes.js.map
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -23212,10 +24463,10 @@ function mapPremultipliedBlendModes() {
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(112)(module), __webpack_require__(20)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(113)(module), __webpack_require__(20)))
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -23243,7 +24494,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23266,18 +24517,18 @@ module.exports = {
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(115);
-exports.encode = exports.stringify = __webpack_require__(116);
+exports.decode = exports.parse = __webpack_require__(116);
+exports.encode = exports.stringify = __webpack_require__(117);
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23368,7 +24619,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23460,7 +24711,7 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23476,7 +24727,7 @@ var _settings2 = _interopRequireDefault(_settings);
 
 var _const = __webpack_require__(1);
 
-var _TickerListener = __webpack_require__(118);
+var _TickerListener = __webpack_require__(119);
 
 var _TickerListener2 = _interopRequireDefault(_TickerListener);
 
@@ -23938,7 +25189,7 @@ exports.default = Ticker;
 //# sourceMappingURL=Ticker.js.map
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24117,7 +25368,7 @@ exports.default = TickerListener;
 //# sourceMappingURL=TickerListener.js.map
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24275,7 +25526,7 @@ _CanvasRenderer2.default.registerPlugin('sprite', CanvasSpriteRenderer);
 //# sourceMappingURL=CanvasSpriteRenderer.js.map
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24449,7 +25700,7 @@ exports.default = CanvasMaskManager;
 //# sourceMappingURL=CanvasMaskManager.js.map
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24526,7 +25777,7 @@ function mapCanvasBlendModesToPixi() {
 //# sourceMappingURL=mapCanvasBlendModesToPixi.js.map
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24546,15 +25797,15 @@ var _createIndicesForQuads = __webpack_require__(33);
 
 var _createIndicesForQuads2 = _interopRequireDefault(_createIndicesForQuads);
 
-var _generateMultiTextureShader = __webpack_require__(135);
+var _generateMultiTextureShader = __webpack_require__(136);
 
 var _generateMultiTextureShader2 = _interopRequireDefault(_generateMultiTextureShader);
 
-var _checkMaxIfStatmentsInShader = __webpack_require__(136);
+var _checkMaxIfStatmentsInShader = __webpack_require__(137);
 
 var _checkMaxIfStatmentsInShader2 = _interopRequireDefault(_checkMaxIfStatmentsInShader);
 
-var _BatchBuffer = __webpack_require__(137);
+var _BatchBuffer = __webpack_require__(138);
 
 var _BatchBuffer2 = _interopRequireDefault(_BatchBuffer);
 
@@ -25082,7 +26333,7 @@ _WebGLRenderer2.default.registerPlugin('sprite', SpriteRenderer);
 //# sourceMappingURL=SpriteRenderer.js.map
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25297,7 +26548,7 @@ exports.default = MaskManager;
 //# sourceMappingURL=MaskManager.js.map
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25364,7 +26615,7 @@ function extractUniformsFromString(string) {
 //# sourceMappingURL=extractUniformsFromSrc.js.map
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -25554,7 +26805,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25712,7 +26963,7 @@ exports.default = StencilManager;
 //# sourceMappingURL=StencilManager.js.map
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25738,7 +26989,7 @@ var _Shader = __webpack_require__(13);
 
 var _Shader2 = _interopRequireDefault(_Shader);
 
-var _filterTransforms = __webpack_require__(128);
+var _filterTransforms = __webpack_require__(129);
 
 var filterTransforms = _interopRequireWildcard(_filterTransforms);
 
@@ -26311,7 +27562,7 @@ exports.default = FilterManager;
 //# sourceMappingURL=FilterManager.js.map
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26376,7 +27627,7 @@ function calculateSpriteMatrix(outputMatrix, filterArea, textureSize, sprite) {
 //# sourceMappingURL=filterTransforms.js.map
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26637,7 +27888,7 @@ exports.default = TextureManager;
 //# sourceMappingURL=TextureManager.js.map
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26762,7 +28013,7 @@ exports.default = TextureGarbageCollector;
 //# sourceMappingURL=TextureGarbageCollector.js.map
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26770,7 +28021,7 @@ exports.default = TextureGarbageCollector;
 
 exports.__esModule = true;
 
-var _mapWebGLBlendModesToPixi = __webpack_require__(132);
+var _mapWebGLBlendModesToPixi = __webpack_require__(133);
 
 var _mapWebGLBlendModesToPixi2 = _interopRequireDefault(_mapWebGLBlendModesToPixi);
 
@@ -27047,7 +28298,7 @@ exports.default = WebGLState;
 //# sourceMappingURL=WebGLState.js.map
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27101,7 +28352,7 @@ function mapWebGLBlendModesToPixi(gl) {
 //# sourceMappingURL=mapWebGLBlendModesToPixi.js.map
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27138,7 +28389,7 @@ function mapWebGLDrawModesToPixi(gl) {
 //# sourceMappingURL=mapWebGLDrawModesToPixi.js.map
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27159,7 +28410,7 @@ function validateContext(gl) {
 //# sourceMappingURL=validateContext.js.map
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27227,7 +28478,7 @@ function generateSampleSrc(maxTextures) {
 //# sourceMappingURL=generateMultiTextureShader.js.map
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27307,7 +28558,7 @@ function generateIfTestSrc(maxIfs) {
 //# sourceMappingURL=checkMaxIfStatmentsInShader.js.map
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27365,7 +28616,7 @@ exports.default = Buffer;
 //# sourceMappingURL=BatchBuffer.js.map
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27401,7 +28652,7 @@ var _TextMetrics = __webpack_require__(63);
 
 var _TextMetrics2 = _interopRequireDefault(_TextMetrics);
 
-var _trimCanvas = __webpack_require__(139);
+var _trimCanvas = __webpack_require__(140);
 
 var _trimCanvas2 = _interopRequireDefault(_trimCanvas);
 
@@ -28025,7 +29276,7 @@ exports.default = Text;
 //# sourceMappingURL=Text.js.map
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28106,7 +29357,7 @@ function trimCanvas(canvas) {
 //# sourceMappingURL=trimCanvas.js.map
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28144,7 +29395,7 @@ var _Bounds = __webpack_require__(25);
 
 var _Bounds2 = _interopRequireDefault(_Bounds);
 
-var _bezierCurveTo2 = __webpack_require__(141);
+var _bezierCurveTo2 = __webpack_require__(142);
 
 var _bezierCurveTo3 = _interopRequireDefault(_bezierCurveTo2);
 
@@ -29316,7 +30567,7 @@ Graphics._SPRITE_TEXTURE = null;
 //# sourceMappingURL=Graphics.js.map
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29371,7 +30622,7 @@ function bezierCurveTo(fromX, fromY, cpX, cpY, cpX2, cpY2, toX, toY) {
 //# sourceMappingURL=bezierCurveTo.js.map
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29391,27 +30642,27 @@ var _WebGLRenderer = __webpack_require__(17);
 
 var _WebGLRenderer2 = _interopRequireDefault(_WebGLRenderer);
 
-var _WebGLGraphicsData = __webpack_require__(143);
+var _WebGLGraphicsData = __webpack_require__(144);
 
 var _WebGLGraphicsData2 = _interopRequireDefault(_WebGLGraphicsData);
 
-var _PrimitiveShader = __webpack_require__(144);
+var _PrimitiveShader = __webpack_require__(145);
 
 var _PrimitiveShader2 = _interopRequireDefault(_PrimitiveShader);
 
-var _buildPoly = __webpack_require__(145);
+var _buildPoly = __webpack_require__(146);
 
 var _buildPoly2 = _interopRequireDefault(_buildPoly);
 
-var _buildRectangle = __webpack_require__(146);
+var _buildRectangle = __webpack_require__(147);
 
 var _buildRectangle2 = _interopRequireDefault(_buildRectangle);
 
-var _buildRoundedRectangle = __webpack_require__(147);
+var _buildRoundedRectangle = __webpack_require__(148);
 
 var _buildRoundedRectangle2 = _interopRequireDefault(_buildRoundedRectangle);
 
-var _buildCircle = __webpack_require__(148);
+var _buildCircle = __webpack_require__(149);
 
 var _buildCircle2 = _interopRequireDefault(_buildCircle);
 
@@ -29641,7 +30892,7 @@ _WebGLRenderer2.default.registerPlugin('graphics', GraphicsRenderer);
 //# sourceMappingURL=GraphicsRenderer.js.map
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29789,7 +31040,7 @@ exports.default = WebGLGraphicsData;
 //# sourceMappingURL=WebGLGraphicsData.js.map
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29839,7 +31090,7 @@ exports.default = PrimitiveShader;
 //# sourceMappingURL=PrimitiveShader.js.map
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29930,7 +31181,7 @@ function buildPoly(graphicsData, webGLData, webGLDataNativeLines) {
 //# sourceMappingURL=buildPoly.js.map
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30011,7 +31262,7 @@ function buildRectangle(graphicsData, webGLData, webGLDataNativeLines) {
 //# sourceMappingURL=buildRectangle.js.map
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30172,7 +31423,7 @@ function quadraticBezierCurve(fromX, fromY, cpX, cpY, toX, toY) {
 //# sourceMappingURL=buildRoundedRectangle.js.map
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30270,7 +31521,7 @@ function buildCircle(graphicsData, webGLData, webGLDataNativeLines) {
 //# sourceMappingURL=buildCircle.js.map
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30544,7 +31795,7 @@ _CanvasRenderer2.default.registerPlugin('graphics', CanvasGraphicsRenderer);
 //# sourceMappingURL=CanvasGraphicsRenderer.js.map
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30814,7 +32065,7 @@ exports.default = Spritesheet;
 //# sourceMappingURL=Spritesheet.js.map
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31963,7 +33214,7 @@ function deprecation(core) {
 //# sourceMappingURL=deprecation.js.map
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31980,7 +33231,7 @@ Object.defineProperty(exports, 'accessibleTarget', {
   }
 });
 
-var _AccessibilityManager = __webpack_require__(153);
+var _AccessibilityManager = __webpack_require__(154);
 
 Object.defineProperty(exports, 'AccessibilityManager', {
   enumerable: true,
@@ -31993,7 +33244,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32492,7 +33743,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 //# sourceMappingURL=AccessibilityManager.js.map
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32500,7 +33751,7 @@ core.CanvasRenderer.registerPlugin('accessibility', AccessibilityManager);
 
 exports.__esModule = true;
 
-var _WebGLExtract = __webpack_require__(155);
+var _WebGLExtract = __webpack_require__(156);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -32509,7 +33760,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasExtract = __webpack_require__(156);
+var _CanvasExtract = __webpack_require__(157);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -32522,7 +33773,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32762,7 +34013,7 @@ core.WebGLRenderer.registerPlugin('extract', WebGLExtract);
 //# sourceMappingURL=WebGLExtract.js.map
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32947,7 +34198,7 @@ core.CanvasRenderer.registerPlugin('extract', CanvasExtract);
 //# sourceMappingURL=CanvasExtract.js.map
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33361,7 +34612,7 @@ exports.default = AnimatedSprite;
 //# sourceMappingURL=AnimatedSprite.js.map
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33812,7 +35063,7 @@ exports.default = TilingSprite;
 //# sourceMappingURL=TilingSprite.js.map
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33979,7 +35230,7 @@ core.WebGLRenderer.registerPlugin('tilingSprite', TilingSpriteRenderer);
 //# sourceMappingURL=TilingSpriteRenderer.js.map
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34575,7 +35826,7 @@ BitmapText.fonts = {};
 //# sourceMappingURL=BitmapText.js.map
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34984,7 +36235,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function _cacheAsBitmapDestroy(o
 //# sourceMappingURL=cacheAsBitmap.js.map
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35024,7 +36275,7 @@ core.Container.prototype.getChildByName = function getChildByName(name) {
 //# sourceMappingURL=getChildByName.js.map
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35063,7 +36314,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 //# sourceMappingURL=getGlobalPosition.js.map
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35071,7 +36322,7 @@ core.DisplayObject.prototype.getGlobalPosition = function getGlobalPosition() {
 
 exports.__esModule = true;
 
-var _FXAAFilter = __webpack_require__(165);
+var _FXAAFilter = __webpack_require__(166);
 
 Object.defineProperty(exports, 'FXAAFilter', {
   enumerable: true,
@@ -35080,7 +36331,7 @@ Object.defineProperty(exports, 'FXAAFilter', {
   }
 });
 
-var _NoiseFilter = __webpack_require__(166);
+var _NoiseFilter = __webpack_require__(167);
 
 Object.defineProperty(exports, 'NoiseFilter', {
   enumerable: true,
@@ -35089,7 +36340,7 @@ Object.defineProperty(exports, 'NoiseFilter', {
   }
 });
 
-var _DisplacementFilter = __webpack_require__(167);
+var _DisplacementFilter = __webpack_require__(168);
 
 Object.defineProperty(exports, 'DisplacementFilter', {
   enumerable: true,
@@ -35098,7 +36349,7 @@ Object.defineProperty(exports, 'DisplacementFilter', {
   }
 });
 
-var _BlurFilter = __webpack_require__(168);
+var _BlurFilter = __webpack_require__(169);
 
 Object.defineProperty(exports, 'BlurFilter', {
   enumerable: true,
@@ -35125,7 +36376,7 @@ Object.defineProperty(exports, 'BlurYFilter', {
   }
 });
 
-var _ColorMatrixFilter = __webpack_require__(169);
+var _ColorMatrixFilter = __webpack_require__(170);
 
 Object.defineProperty(exports, 'ColorMatrixFilter', {
   enumerable: true,
@@ -35134,7 +36385,7 @@ Object.defineProperty(exports, 'ColorMatrixFilter', {
   }
 });
 
-var _AlphaFilter = __webpack_require__(170);
+var _AlphaFilter = __webpack_require__(171);
 
 Object.defineProperty(exports, 'AlphaFilter', {
   enumerable: true,
@@ -35147,7 +36398,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35206,7 +36457,7 @@ exports.default = FXAAFilter;
 //# sourceMappingURL=FXAAFilter.js.map
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35308,7 +36559,7 @@ exports.default = NoiseFilter;
 //# sourceMappingURL=NoiseFilter.js.map
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35421,7 +36672,7 @@ exports.default = DisplacementFilter;
 //# sourceMappingURL=DisplacementFilter.js.map
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35600,7 +36851,7 @@ exports.default = BlurFilter;
 //# sourceMappingURL=BlurFilter.js.map
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36156,7 +37407,7 @@ ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 //# sourceMappingURL=ColorMatrixFilter.js.map
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36245,7 +37496,7 @@ exports.default = AlphaFilter;
 //# sourceMappingURL=AlphaFilter.js.map
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36262,7 +37513,7 @@ Object.defineProperty(exports, 'InteractionData', {
   }
 });
 
-var _InteractionManager = __webpack_require__(172);
+var _InteractionManager = __webpack_require__(173);
 
 Object.defineProperty(exports, 'InteractionManager', {
   enumerable: true,
@@ -36302,7 +37553,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38078,7 +39329,7 @@ core.CanvasRenderer.registerPlugin('interaction', InteractionManager);
 //# sourceMappingURL=InteractionManager.js.map
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38139,7 +39390,7 @@ var _Application = __webpack_require__(66);
 
 var _Application2 = _interopRequireDefault(_Application);
 
-var _loader = __webpack_require__(175);
+var _loader = __webpack_require__(176);
 
 var _loader2 = _interopRequireDefault(_loader);
 
@@ -38211,7 +39462,7 @@ AppPrototype.destroy = function destroy(removeView) {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38869,7 +40120,7 @@ exports.default = Loader;
 //# sourceMappingURL=Loader.js.map
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38881,7 +40132,7 @@ var _resourceLoader = __webpack_require__(14);
 
 var _resourceLoader2 = _interopRequireDefault(_resourceLoader);
 
-var _blob = __webpack_require__(176);
+var _blob = __webpack_require__(177);
 
 var _eventemitter = __webpack_require__(8);
 
@@ -39045,7 +40296,7 @@ Resource.setExtensionXhrType('fnt', Resource.XHR_RESPONSE_TYPE.DOCUMENT);
 //# sourceMappingURL=loader.js.map
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39138,7 +40389,7 @@ function blobMiddlewareFactory() {
 //# sourceMappingURL=blob.js.map
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39155,7 +40406,7 @@ Object.defineProperty(exports, 'Mesh', {
   }
 });
 
-var _MeshRenderer = __webpack_require__(178);
+var _MeshRenderer = __webpack_require__(179);
 
 Object.defineProperty(exports, 'MeshRenderer', {
   enumerable: true,
@@ -39164,7 +40415,7 @@ Object.defineProperty(exports, 'MeshRenderer', {
   }
 });
 
-var _CanvasMeshRenderer = __webpack_require__(179);
+var _CanvasMeshRenderer = __webpack_require__(180);
 
 Object.defineProperty(exports, 'CanvasMeshRenderer', {
   enumerable: true,
@@ -39182,7 +40433,7 @@ Object.defineProperty(exports, 'Plane', {
   }
 });
 
-var _NineSlicePlane = __webpack_require__(180);
+var _NineSlicePlane = __webpack_require__(181);
 
 Object.defineProperty(exports, 'NineSlicePlane', {
   enumerable: true,
@@ -39191,7 +40442,7 @@ Object.defineProperty(exports, 'NineSlicePlane', {
   }
 });
 
-var _Rope = __webpack_require__(181);
+var _Rope = __webpack_require__(182);
 
 Object.defineProperty(exports, 'Rope', {
   enumerable: true,
@@ -39204,7 +40455,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39360,7 +40611,7 @@ core.WebGLRenderer.registerPlugin('mesh', MeshRenderer);
 //# sourceMappingURL=MeshRenderer.js.map
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39651,7 +40902,7 @@ core.CanvasRenderer.registerPlugin('mesh', MeshSpriteRenderer);
 //# sourceMappingURL=CanvasMeshRenderer.js.map
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40043,7 +41294,7 @@ exports.default = NineSlicePlane;
 //# sourceMappingURL=NineSlicePlane.js.map
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40284,7 +41535,7 @@ exports.default = Rope;
 //# sourceMappingURL=Rope.js.map
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40292,7 +41543,7 @@ exports.default = Rope;
 
 exports.__esModule = true;
 
-var _ParticleContainer = __webpack_require__(183);
+var _ParticleContainer = __webpack_require__(184);
 
 Object.defineProperty(exports, 'ParticleContainer', {
   enumerable: true,
@@ -40301,7 +41552,7 @@ Object.defineProperty(exports, 'ParticleContainer', {
   }
 });
 
-var _ParticleRenderer = __webpack_require__(184);
+var _ParticleRenderer = __webpack_require__(185);
 
 Object.defineProperty(exports, 'ParticleRenderer', {
   enumerable: true,
@@ -40314,7 +41565,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40699,7 +41950,7 @@ exports.default = ParticleContainer;
 //# sourceMappingURL=ParticleContainer.js.map
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40711,11 +41962,11 @@ var _core = __webpack_require__(0);
 
 var core = _interopRequireWildcard(_core);
 
-var _ParticleShader = __webpack_require__(185);
+var _ParticleShader = __webpack_require__(186);
 
 var _ParticleShader2 = _interopRequireDefault(_ParticleShader);
 
-var _ParticleBuffer = __webpack_require__(186);
+var _ParticleBuffer = __webpack_require__(187);
 
 var _ParticleBuffer2 = _interopRequireDefault(_ParticleBuffer);
 
@@ -41180,7 +42431,7 @@ core.WebGLRenderer.registerPlugin('particle', ParticleRenderer);
 //# sourceMappingURL=ParticleRenderer.js.map
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41228,7 +42479,7 @@ exports.default = ParticleShader;
 //# sourceMappingURL=ParticleShader.js.map
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41480,7 +42731,7 @@ exports.default = ParticleBuffer;
 //# sourceMappingURL=ParticleBuffer.js.map
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41488,7 +42739,7 @@ exports.default = ParticleBuffer;
 
 exports.__esModule = true;
 
-var _WebGLPrepare = __webpack_require__(188);
+var _WebGLPrepare = __webpack_require__(189);
 
 Object.defineProperty(exports, 'webgl', {
   enumerable: true,
@@ -41497,7 +42748,7 @@ Object.defineProperty(exports, 'webgl', {
   }
 });
 
-var _CanvasPrepare = __webpack_require__(189);
+var _CanvasPrepare = __webpack_require__(190);
 
 Object.defineProperty(exports, 'canvas', {
   enumerable: true,
@@ -41524,7 +42775,7 @@ Object.defineProperty(exports, 'CountLimiter', {
   }
 });
 
-var _TimeLimiter = __webpack_require__(190);
+var _TimeLimiter = __webpack_require__(191);
 
 Object.defineProperty(exports, 'TimeLimiter', {
   enumerable: true,
@@ -41537,7 +42788,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41664,7 +42915,7 @@ core.WebGLRenderer.registerPlugin('prepare', WebGLPrepare);
 //# sourceMappingURL=WebGLPrepare.js.map
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41789,7 +43040,7 @@ core.CanvasRenderer.registerPlugin('prepare', CanvasPrepare);
 //# sourceMappingURL=CanvasPrepare.js.map
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
