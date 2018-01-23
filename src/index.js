@@ -1,11 +1,15 @@
+var PIXI = require('pixi.js');
+
+//import PIXI from 'pixi.js'
+
 let type = "WebGL"
 if (!PIXI.utils.isWebGLSupported()) {
     type = "canvas"
 }
 
 let app = new PIXI.Application({
-    width: 256, // default: 800
-    height: 256, // default: 600
+    width: 800, // default: 800
+    height: 600, // default: 600
     antialias: true, // default: false
     transparent: false, // default: false
     resolution: 1 // default: 1
@@ -19,14 +23,27 @@ PIXI.loader
     .load(setup);
 
 class startView {
-    constructor(app, imgFile = 'fee.jpg') {
-        this.fee = new PIXI.Sprite(PIXI.loader.resources[imgFile].texture);
+    constructor(app) {
+        this.fee = new PIXI.Sprite(PIXI.loader.resources['fee.jpg'].texture);
         this.fee.x = 1;
         this.fee.y = 2;
         this.fee.vx = 1;
         this.fee.vy = 2;
-
         app.stage.addChild(this.fee);
+
+//let spriteUtils = new SpriteUtilities(PIXI);
+//
+//
+//        let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
+//        let battler = spriteUtils.sprite(frameTextures);
+//
+//
+//        //let sprite = PIXI.loader.resources["sprite.json"].textures; 
+//        //this.battler = new PIXI.Sprite(sprite['battler0.png']);
+//        this.battler.x = 600;
+//        this.battler.y = 50;
+//
+//        app.stage.addChild(this.battler);
 
         this.registerKeys();
     }
