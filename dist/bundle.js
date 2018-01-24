@@ -20662,15 +20662,14 @@ class startView {
 //        this.fee.vy = 2;
 //        app.stage.addChild(this.fee);
 
-      // let spriteUtils = new SpriteUtilities(PIXI);
-      // let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
-      // let battler = spriteUtils.sprite(frameTextures);
+      let spriteUtils = new __WEBPACK_IMPORTED_MODULE_0_pixi_sprite_utilities__["a" /* default */](PIXI);
+      let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
 
-
-       let sprite = PIXI.loader.resources["sprite.json"].textures; 
-       this.battler = new PIXI.Sprite(sprite['battler0.png']);
+      this.battler = spriteUtils.sprite(frameTextures);
+      this.battler.fps = 6;
        this.battler.x = 600;
        this.battler.y = 50;
+      this.battler.playAnimation();
 
        app.stage.addChild(this.battler);
 
@@ -21990,7 +21989,7 @@ class SpriteUtilities {
   */
   }
 }
-/* unused harmony export default */
+/* harmony export (immutable) */ __webpack_exports__["a"] = SpriteUtilities;
 
 
 
