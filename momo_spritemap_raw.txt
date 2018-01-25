@@ -1,0 +1,59 @@
+
+stand_down: 8 16 40 48
+stand_sw: 56 8 44 56
+stand_w: 108 16 43 48
+stand_nw: 160  15 43 48
+stand_up: 212 15 47 48
+
+walking_nw_0: 8 72 49 52
+walking_nw_1: 58 72 49 52
+walking_nw_2: 108  72 49 52
+walking_nw_3: 158 72 49 52
+walking_nw_4: 208 72 49 52
+walking_nw_5: 258 72 49 52
+
+walking_sw_0: 332 72 49 51
+walking_sw_1: 386 72 49 51
+walking_sw_2: 439 72 49 51
+walking_sw_3: 492 72 49 51
+walking_sw_4: 545 72 49 51
+walking_sw_5: 598 72 49 51
+
+battle_intro_0:   8    588 73 118
+battle_intro_1:   82   588 73 118
+battle_intro_2:   156  588 73 118
+battle_intro_3:   230  588 73 118
+battle_intro_4:   304  588 73 118
+battle_intro_5:   378  588 73 118
+battle_intro_6:   452  588 73 118
+battle_intro_7:   526  588 73 118
+battle_intro_8:   600  588 73 118
+battle_intro_9:  674  588 73 118
+battle_intro_10:  748  588 73 118
+battle_intro_11:  822  588 73 118
+battle_intro_12:  896  588 73 118
+battle_intro_13:  970  588 73 118
+battle_intro_14:  1044 588 73 118
+battle_intro_15:  1118 588 73 118
+battle_intro_16:  1192 588 73 118
+battle_intro_17:  1266 588 73 118
+battle_intro_18:  1340 588 73 118
+battle_intro_19:  1414 588 73 118
+battle_intro_20:  1488 588 73 118
+battle_intro_21:  1562 588 73 118
+
+battle_attack_0: 8 784 106 60 
+battle_attack_1: 115 784 106 60 
+battle_attack_2: 222 784 106 60 
+battle_attack_3: 329 784 106 60 
+battle_attack_4: 436 784 106 60 
+battle_attack_5: 543 784 106 60 
+battle_attack_6: 650 784 106 60 
+battle_attack_7: 757 784 106 60 
+battle_attack_8: 864 784 106 60 
+battle_attack_9: 971 784 106 60 
+battle_attack_10: 1078 784 106 60 
+battle_attack_11: 1185 784 106 60 
+battle_attack_12: 1292 784 106 60 
+battle_attack_13: 1399 784 106 60 
+battle_attack_14: 1506 784 106 60 

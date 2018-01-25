@@ -20650,36 +20650,90 @@ app.renderer.backgroundColor = 0xDDDDDD;
 document.body.appendChild(app.view);
 
 PIXI.loader
-    .add("sprite.json")
+    .add("momo.json")
     .load(setup);
 
 class startView {
     constructor(app) {
-//        this.fee = new PIXI.Sprite(PIXI.loader.resources['fee.jpg'].texture);
-//        this.fee.x = 1;
-//        this.fee.y = 2;
-//        this.fee.vx = 1;
-//        this.fee.vy = 2;
-//        app.stage.addChild(this.fee);
+        let spriteUtils = new __WEBPACK_IMPORTED_MODULE_0_pixi_sprite_utilities__["a" /* default */](PIXI);
+        let sprites = [];
+        let stand = [
+            'stand_down',
+            'stand_sw',
+            'stand_w',
+            'stand_nw',
+            'stand_up'
+        ];
+        let x = 0;
+        for (let frame of stand) {
+            sprites[frame] = spriteUtils.sprite(frame);
+            sprites[frame].x = 80 * x + 20;
+            sprites[frame].y = 20;
+            x++;
+        }
 
-      let spriteUtils = new __WEBPACK_IMPORTED_MODULE_0_pixi_sprite_utilities__["a" /* default */](PIXI);
-      let frameTextures = spriteUtils.frameSeries(0, 1, "battler", ".png");
+        let animations = {
+            'walking_nw': 5,
+            'walking_sw': 5,
+            'battle_intro': 21,
+            'battle_attack': 14
+        };
+        x = 0;
+        for (let name in animations) {
+            sprites[name] = spriteUtils.sprite(spriteUtils.frameSeries(0, animations[name], name));
+            sprites[name].fps = 6;
+            sprites[name].x = 125 * x + 20;
+            sprites[name].y = 150;
+            sprites[name].playAnimation();
+            x++;
+        }
 
-      this.battler = spriteUtils.sprite(frameTextures);
-      this.battler.fps = 6;
-       this.battler.x = 600;
-       this.battler.y = 50;
-      this.battler.playAnimation();
 
-       app.stage.addChild(this.battler);
+// (0 1) 2 3 (4 5 6) 7 (8 9) 10
+
+        // this.waiting = spriteUtils.sprite(spriteUtils.frameSeries(0, 1, "battler"));
+        // this.waiting.fps = 6;
+        // this.waiting.x = 20;
+        // this.waiting.y = 150;
+        // this.waiting.playAnimation();
+        // app.stage.addChild(this.waiting);
+
+        // this.down = spriteUtils.sprite(spriteUtils.frameSeries(8, 9, "battler"));
+        // this.down.fps = 6;
+        // this.down.x = 100;
+        // this.down.y = 150;
+        // this.down.playAnimation();
+        // app.stage.addChild(this.down);
+
+        // this.cast = spriteUtils.sprite(spriteUtils.frameSeries(4, 6, "battler"));
+        // this.cast.fps = 6;
+        // this.cast.x = 180;
+        // this.cast.y = 150;
+        // this.cast.playAnimation();
+        // app.stage.addChild(this.cast);
+
+        // this.bow = spriteUtils.sprite(spriteUtils.frameSeries(2, 3, "battler"));
+        // this.bow.fps = 6;
+        // this.bow.x = 380;
+        // this.bow.y = 150;
+        // this.bow.playAnimation();
+        // app.stage.addChild(this.bow);
+
+        for (let sprite in  sprites) {
+            app.stage.addChild(sprites[sprite]);
+        }
 
         //this.registerKeys();
     }
 
     registerKeys() {
         let anykey = keyboard(32);
-        anykey.press = () => { this.fee.x = 15; };
-        anykey.release = () => { this.fee.x = -15; };
+        anykey.press = () => {
+            this.fee.x = 15;
+        };
+        anykey.release = () => {
+            this.fee.x = -15;
+        };
     }
 
     render(delta) {
