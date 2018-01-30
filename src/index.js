@@ -1,10 +1,10 @@
-var machina = require('machina');
 let PIXI = require('pixi.js');
 
 import demoView from './demoView.js';
 import startView from './startView.js';
 import debugView from './debugView.js';
 import input from './input.js';
+import stageFsm from './stageFsm.js';
 
 let type = "WebGL"
 if (!PIXI.utils.isWebGLSupported()) {
@@ -26,58 +26,8 @@ PIXI.loader
     .add("momo.json")
     .load(setup);
 
-let stageFsm = new machina.BehavioralFsm( {
-    namespace: "app-stage",
-    initialState: "uninitialized",
-
-    initialize: function( options ) {
-    },
-
-    states: {
-        uninitialized: {
-            "*": function( client ) {
-                this.deferUntilTransition( client );
-                this.transition( client, "start" );
-            }
-        },
-        start: {
-            _onEnter: function( client ) {
-                client.view.container.visible = true;
-            },
-            buttonPush: function( client ) {
-                console.log('Button pushed (start)');
-//                this.deferUntilTransition(  client, "demo" );
-            },
-            init: function ( client) {
-            },
-            _onExit: function( client ) {
-                client.view.container.visible = false;
-            }
-        }
-    },
-
-    // ???
-    reset: function( client ) {
-        this.handle(  client, "_reset" );
-    },
-
-    buttonPush: function ( client ) {
-        this.handle( client, 'buttonPush' );
-    }, 
-
-    init: function ( client) {
-        this.handle( client, 'init' );
-    }
-} );
-
 let state,
     view;
-
-// let views = new viewManager({
-//     'start': new startView(input),
-//     'demo': new demoView(),
-// })
-
 
 function setup() {
     //let input = new input();
