@@ -1,8 +1,10 @@
+var machina = require('machina');
+let PIXI = require('pixi.js');
+
 import demoView from './demoView.js';
-
-var PIXI = require('pixi.js');
-
-//import PIXI from 'pixi.js'
+import startView from './startView.js';
+import debugView from './debugView.js';
+import input from './input.js';
 
 let type = "WebGL"
 if (!PIXI.utils.isWebGLSupported()) {
@@ -24,14 +26,64 @@ PIXI.loader
     .add("momo.json")
     .load(setup);
 
+let stageFsm = new machina.BehavioralFsm( {
+    namespace: "app-stage",
+    initialState: "uninitialized",
 
+    initialize: function( options ) {
+    },
 
-//  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #  #
+    states: {
+        uninitialized: {
+            "*": function( client ) {
+                this.deferUntilTransition( client );
+                this.transition( client, "start" );
+            }
+        },
+        start: {
+            _onEnter: function( client ) {
+                client.view = view.container.visible = true;
+            },
+            buttonPush: function( client ) {
+                console.log('Button pushed (start)');
+//                this.deferUntilTransition(  client, "demo" );
+            },
+            _onExit: function( client ) {
+                client.view = view.container.visible = false;
+            }
+        }
+    },
+
+    reset: function( client ) {
+        this.handle(  client, "_reset" );
+    },
+
+    buttonPush: function ( client ) {
+        console.log('Button pushed (main)');
+    }, 
+
+    init: function ( client) {
+        console.log('init');
+    }
+} );
+
 let state,
     view;
 
+// let views = new viewManager({
+//     'start': new startView(input),
+//     'demo': new demoView(),
+// })
+
+
 function setup() {
-    view = new demoView(app);
+    //let input = new input();
+    var start = { view: new startView() };
+    //var demo = { view: new demoView() };
+
+    stageFsm.init(start);
+
+    app.stage.addChild(start.view.container);
 
     state = play;
     app.ticker.add(delta => gameLoop(delta));
@@ -42,42 +94,5 @@ function gameLoop(delta) {
 }
 
 function play(delta) {
-    view.render(delta)
-}
-
-function keyboard(keyCode) {
-    let key = {};
-    key.code = keyCode;
-    key.isDown = false;
-    key.isUp = true;
-    key.press = undefined;
-    key.release = undefined;
-
-    //The `downHandler`
-    key.downHandler = event => {
-        if (event.keyCode === key.code) {
-            if (key.isUp && key.press) key.press();
-            key.isDown = true;
-            key.isUp = false;
-        }
-        event.preventDefault();
-    };
-
-    //The `upHandler`
-    key.upHandler = event => {
-        if (event.keyCode === key.code) {
-            if (key.isDown && key.release) key.release();
-            key.isDown = false;
-            key.isUp = true;
-        }
-        event.preventDefault();
-    };
-
-    window.addEventListener(
-        "keydown", key.downHandler.bind(key), false
-    );
-    window.addEventListener(
-        "keyup", key.upHandler.bind(key), false
-    );
-    return key;
+    //views.getCurrentView().render(delta)
 }
