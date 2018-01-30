@@ -1,11 +1,12 @@
+let PIXI = require('pixi.js');
+
 import SpriteUtilities from 'pixi-sprite-utilities';
 
-export default class demoView {
-    constructor() {
-    }
+let Container = PIXI.Container;
 
-   getContainer() {
-        let gameScene = new Container();
+export default class demoView {
+   constructor() {
+        this.container = new Container();
         let spriteUtils = new SpriteUtilities(PIXI);
 
         let sprites = [];
@@ -24,6 +25,7 @@ export default class demoView {
             x++;
         }
 
+        // name: duration
         let animations = {
             'walking_nw': 5,
             'walking_sw': 5,
@@ -41,13 +43,13 @@ export default class demoView {
         }
 
         for (let sprite in  sprites) {
-            gameScene.addChild(sprites[sprite]);
+            this.container.addChild(sprites[sprite]);
         }
 
-        return gameScene;
+        return this.container;
     }
 
-
+/*
     registerKeys() {
         let anykey = keyboard(32);
         anykey.press = () => {
@@ -57,7 +59,7 @@ export default class demoView {
             this.fee.x = -15;
         };
     }
-
+*/
     render(delta) {
         // this.fee.x += this.fee.vx;
         // this.fee.y += this.fee.vy;

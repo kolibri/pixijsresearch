@@ -30,11 +30,20 @@ let state,
     view;
 
 function setup() {
-    //let input = new input();
-    let start = { view: new startView() };
+    let start = { view: new startView(), input: input };
     //var demo = { view: new demoView() };
 
     stageFsm.init(start);
+
+
+        input.down.press = () => {
+            //
+        };
+        input.down.release = () => {
+            stageFsm.buttonPush(start);
+        };
+
+
 
     app.stage.addChild(start.view.container);
 

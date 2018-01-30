@@ -1,10 +1,8 @@
 let PIXI = require('pixi.js');
 
 import SpriteUtilities from 'pixi-sprite-utilities';
-import keyboard from './keyboard.js';
 
 let Container = PIXI.Container;
-
 
 export default class startView {
     //constructor(input) {
