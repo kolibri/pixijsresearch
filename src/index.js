@@ -42,28 +42,31 @@ let stageFsm = new machina.BehavioralFsm( {
         },
         start: {
             _onEnter: function( client ) {
-                client.view = view.container.visible = true;
+                client.view.container.visible = true;
             },
             buttonPush: function( client ) {
                 console.log('Button pushed (start)');
 //                this.deferUntilTransition(  client, "demo" );
             },
+            init: function ( client) {
+            },
             _onExit: function( client ) {
-                client.view = view.container.visible = false;
+                client.view.container.visible = false;
             }
         }
     },
 
+    // ???
     reset: function( client ) {
         this.handle(  client, "_reset" );
     },
 
     buttonPush: function ( client ) {
-        console.log('Button pushed (main)');
+        this.handle( client, 'buttonPush' );
     }, 
 
     init: function ( client) {
-        console.log('init');
+        this.handle( client, 'init' );
     }
 } );
 
@@ -78,7 +81,7 @@ let state,
 
 function setup() {
     //let input = new input();
-    var start = { view: new startView() };
+    let start = { view: new startView() };
     //var demo = { view: new demoView() };
 
     stageFsm.init(start);

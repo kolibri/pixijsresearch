@@ -10,7 +10,7 @@ export default class startView {
     //constructor(input) {
     constructor() {
         this.container = new Container();
-        
+        this.container.visible = false;
         let spriteUtils = new SpriteUtilities(PIXI);
         let sprites = [];
 
